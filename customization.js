@@ -112,7 +112,19 @@ Twitter URL: ${q}
 💬 ᴇɴᴏʏ ᴛʜᴇ 𝗯𝗼𝘁 ᴏ𝗳 𝚚𝚞𝚎𝚎𝚗 𝗮𝗻𝗷𝘂! ✨
         `.trim();
   },
-  //====================movie======================================
+  ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃
+
+  💃 *ʝσιɳ ᴜs ➢* https://chat.whatsapp.com/J5RHOsNddkN6JmtnjXgN6Q?mode=ac_t
+
+━━━━━━━━━━✦✧✦━━━━━━━━━━ 
+*🚀 MOVIE UPLOADED BY CINEMAX HD OWNER* 
+
+> ⚙️ Powered By 
+> Mr : Kavindu Kaushalya 
+> 쿼 CINEMAX HD ᵀᴹ ヤ 🇱🇰 
+
+📱 Contract No: 0760595208 
+━━━━━━━━━━✦✧✦━━━━━━━━━━
   GROUP: function (groupName, conf) {
     return `
 📨 *𝙎𝙝𝙖𝙧𝙚𝙙 𝙄𝙣:* ${groupName}
@@ -121,7 +133,7 @@ Twitter URL: ${q}
   },
   SINHALASUB: function (movieData) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *⏤͟͟͞͞★❮ＣＩＮＥＭＡＸ 〽️ 𝗢 𝗩 𝗜 𝗘❯⏤͟͟͞͞★* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* ${movieData.title}
 ⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${movieData.rating?.value || "𝙽/𝙰"} ★
@@ -132,7 +144,7 @@ Twitter URL: ${q}
   },
   CINESUBZ: function (title, metadata, rating) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *⏤͟͟͞͞★❮ＣＩＮＥＭＡＸ 〽️ 𝗢 𝗩 𝗜 𝗘❯⏤͟͟͞͞★* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* 𝘾𝙝𝙚𝙘𝙠 𝙞𝙩 𝙤𝙪𝙩 → ${title}
        
@@ -145,7 +157,7 @@ Twitter URL: ${q}
   },
   CINETVSHOW: function (movieResponse) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *⏤͟͟͞͞★❮ＣＩＮＥＭＡＸ 〽️ 𝗢 𝗩 𝗜 𝗘❯⏤͟͟͞͞★* 🍿
 
 📺 *𝚃𝚅 𝚂𝚑𝚘𝚠:* ${movieResponse.episodeInfo?.title || "𝙽/𝙰"}
 🎞️ *𝙴𝚙𝚒𝚜𝚘𝚍𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieResponse.episodeInfo?.episodeTitle || "𝙽/𝙰"}
@@ -154,7 +166,7 @@ Twitter URL: ${q}
   },
   SINHALASUBTVSHOW: function (episodeInfo, quality) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *⏤͟͟͞͞★❮ＣＩＮＥＭＡＸ 〽️ 𝗢 𝗩 𝗜 𝗘❯⏤͟͟͞͞★* 🍿
 
 📺 *TV Show:* ${episodeInfo.title || "N/A"}
 🎞️ *Episode:* ${episodeInfo.episodeTitle || "N/A"}
@@ -164,7 +176,7 @@ Twitter URL: ${q}
   },
   CINETVSHOWALLDL: function (movieData) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *⏤͟͟͞͞★❮ＣＩＮＥＭＡＸ 〽️ 𝗢 𝗩 𝗜 𝗘❯⏤͟͟͞͞★* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieData.data.title}
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.data.releaseDate}
@@ -173,7 +185,7 @@ Twitter URL: ${q}
   },
   SINHALASUBTVSHOWALLDL: function (movieData) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *⏤͟͟͞͞★❮ＣＩＮＥＭＡＸ 〽️ 𝗢 𝗩 𝗜 𝗘❯⏤͟͟͞͞★* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieData.data.showInfo.title}
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.data.showInfo.releaseDate}
@@ -208,7 +220,7 @@ Twitter URL: ${q}
   },
   BAISCOMOVIE: function (title, year, rating, duration) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *⏤͟͟͞͞★❮ＣＩＮＥＭＡＸ 〽️ 𝗢 𝗩 𝗜 𝗘❯⏤͟͟͞͞★* 🍿
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:*  ${title} 
 📅 𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲:${year}  
